@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body style="background-color: #fcfcfc;">
+    <div class="mt-6 mx-4">
+        <form>
+            <p class="text-xl font-semibold text-center whitespace-nowrap mb-11"
+                style="margin-left: 78px; margin-right: 78px; color: #2C2B2B; line-height: 24.38px;">What are your
+                goals?</p>
+
+            <div>
+                <div class="flex justify-between items-center rounded-xl mb-4 px-5"
+                    style="padding-top: 18px; padding-bottom: 18px; background-color: #F1F1F1;">
+                    <label class="text-xs font-semibold" style="line-height: 14.63px; color: #2C2B2B;">Weight
+                        Loss</label>
+                    <input id="first-checkbox" type="checkbox" class="accent-pink-500 "
+                        style="background-color: #F1F1F1; color: #7F7F7F; width: 22px; height: 22px;" />
+                </div>
+                <div class="flex justify-between items-center rounded-xl mb-4 px-5"
+                    style="padding-top: 18px; padding-bottom: 18px; background-color: #F1F1F1;">
+                    <label class="text-xs font-semibold" style="line-height: 14.63px; color: #2C2B2B;">Muscle
+                        Gain</label>
+                    <input id="second-checkbox" type="checkbox" class="accent-pink-500"
+                        style="background-color: #F1F1F1; color: #7F7F7F; width: 22px; height: 22px;" />
+                </div>
+                <div class="flex justify-between items-center rounded-xl mb-4 px-5"
+                    style="padding-top: 18px; padding-bottom: 18px; background-color: #F1F1F1;">
+                    <label class="text-xs font-semibold" style="line-height: 14.63px; color: #2C2B2B;">Flexibility and
+                        Mobility</label>
+                    <input id="third-checkbox" type="checkbox" class="accent-pink-500"
+                        style="background-color: #F1F1F1; color: #7F7F7F; width: 22px; height: 22px;" />
+                </div>
+                <div class="flex justify-between items-center rounded-xl mb-4 px-5"
+                    style="padding-top: 18px; padding-bottom: 18px; background-color: #F1F1F1;">
+                    <label class="text-xs font-semibold" style="line-height: 14.63px; color: #2C2B2B;">General
+                        Fitness</label>
+                    <input id="fourth-checkbox" type="checkbox" class="accent-pink-500"
+                        style="background-color: #F1F1F1; color: #7F7F7F; width: 22px; height: 22px;" />
+                </div>
+                <div class="flex justify-between items-center rounded-xl mb-4 px-5"
+                    style="padding-top: 18px; padding-bottom: 18px; background-color: #F1F1F1;">
+                    <label class="text-xs font-semibold" style="line-height: 14.63px; color: #2C2B2B;">Event - specific
+                        training</label>
+                    <input id="fifth-checkbox" type="checkbox" class="accent-pink-500"
+                        style="background-color: #F1F1F1; color: #7F7F7F; width: 22px; height: 22px;" />
+                </div>
+                <div class="flex justify-between items-center rounded-xl mb-4 px-5"
+                    style="padding-top: 18px; padding-bottom: 18px; background-color: #F1F1F1;">
+                    <label class="text-xs font-semibold" style="line-height: 14.63px; color: #2C2B2B;">Mindfulness and
+                        Mental Health</label>
+                    <input id="sixth-checkbox" type="checkbox" class="accent-pink-500"
+                        style="background-color: #F1F1F1; color: #7F7F7F; width: 22px; height: 22px;" />
+                </div>
+            </div>
+
+            <div class="absolute w-11/12" style="bottom: 85px;">
+                <button id="goals-confirm-button" type="submit"
+                    class="mt-32 w-full rounded-xl text-base font-semibold text-white"
+                    style="height: 50px; background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%); line-height: 19.5px;">
+                    Confirm
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Add the javascript script -->
+    <script src="main.js"></script>
+</body>
+
+</html>

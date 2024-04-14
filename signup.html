@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body style="background-color: #fcfcfc;">
+    <div class="mt-6 mx-4">
+        <form>
+            <p class="text-xl font-semibold mb-11"
+                style="font-family: 'Roboto', sans-serif; color: #2C2B2B; line-height: 23.44px;">Create an account</p>
+
+            <input placeholder="First Name" type="text"
+                class="mb-6 w-full px-5 py-2 border-none rounded-xl text-xs font-semibold"
+                style="height: 50px; background-color: #F1F1F1; color: #7F7F7F; line-height: 14.63px;" />
+            <input placeholder="Last Name" type="text"
+                class="mb-6 w-full px-5 py-2 border-none rounded-xl text-xs font-semibold"
+                style="height: 50px; background-color: #F1F1F1; color: #7F7F7F; line-height: 14.63px;" />
+            <input placeholder="Email" type="email"
+                class="mb-6 w-full px-5 py-2 border-none rounded-xl text-xs font-semibold"
+                style="height: 50px; background-color: #F1F1F1; color: #7F7F7F; line-height: 14.63px;" />
+            <input placeholder="Password" type="password"
+                class="mb-6 w-full px-5 py-2 border-none rounded-xl text-xs font-semibold"
+                style="height: 50px; background-color: #F1F1F1; color: #7F7F7F; line-height: 14.63px;" />
+
+            <div class="flex justify-start items-center">
+                <input id="terms-checkbox" type="checkbox" class="accent-pink-500 mr-2"
+                    style="width: 22px; height: 22px;" />
+                <p class="text-xs font-medium" style="color: #7F7F7F;">By proceeding, I agree to all
+                    <a href="#" class="underline" style="color: #93A9FF;">T&C</a>
+                    and
+                    <a href="#" class="underline" style="color: #93A9FF;">Privacy Policy</a>
+                </p>
+            </div>
+
+            <div class="absolute bottom-11 w-11/12">
+                <button id="signup-button" type="submit" class="w-full rounded-xl text-base font-semibold text-white"
+                    style="height: 50px; background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);">
+                    Create an Account
+                </button>
+
+                <div class="flex flex-row gap-x-2.5 mt-8 justify-center align-center items-center">
+                    <span class="h-px w-full" style="background-color: #7F7F7F;"></span>
+                    <p class="text-xs font-medium" style="color: #2C2B2B; line-height: 14.63px;">Or</p>
+                    <span class="h-px w-full" style="background-color: #7F7F7F;"></span>
+                </div>
+
+                <div class="flex flex-row m-8 justify-center align-center items-center" style="column-gap: 18px">
+                    <div class="flex justify-center items-center w-11 h-11 border-2 rounded-lg">
+                        <img src="../static/img/google-icon.png" />
+                    </div>
+                    <div class="flex justify-center items-center w-11 h-11 border-2 rounded-lg">
+                        <img src="../static/img/facebook-icon.png" />
+                    </div>
+                </div>
+
+                <div class="flex justify-center">
+                    <p class="text-xs font-medium" style="color: #2C2B2B;">
+                        Already have an account?
+                        <a id="signin-link" href="#" class="underline" style="color: #819CFF;">
+                            Login
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Add the javascript script -->
+    <script src="main.js"></script>
+</body>
+
+</html>

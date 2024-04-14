@@ -1,0 +1,13 @@
+Download and install =http-server=
+
+#+begin_src shell
+  npm install -g http-server
+#+end_src
+
+Then run this in the directory containing the =index.html= file,
+
+#+begin_src shell
+  http-server
+#+end_src
+
+Then go the browser and visit =localhost:8080=

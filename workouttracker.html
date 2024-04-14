@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body style="background-color: #fcfcfc; overflow-y: auto; position: relative; min-height: 100vh;">
+    <div class="mt-6 mx-4">
+        <div class="flex items-center" style="margin-bottom: 50.96px;">
+            <a href="goals.html"><img src="../static/img/chevron-left.png" /></a>
+            <p class="text-xl font-semibold text-center whitespace-nowrap"
+                style="margin-left: 78px; margin-right: 78px; color: #2C2B2B; line-height: 24.38px;">Workout Tracker</p>
+        </div>
+
+        <div>
+            <div class="flex items-center">
+                <p class="font-normal" style="font-size: 11.2px; line-height: 13.65px; margin-left: 134.12px;">Good
+                    job</p>
+                <p class="font-normal" style="font-size: 11.2px; line-height: 13.65px; margin-left: 50.67px;">less
+                    then 320cal</p>
+            </div>
+
+            <div class="flex items-center">
+                <img src="../static/img/union.png" style="margin-left: 153.69px;" />
+                <img src="../static/img/union.png" style="margin-left: 110.94px;" />
+            </div>
+
+            <img id="schedule-link" src="../static/img/tracker-chart.png" style="cursor: pointer;" />
+        </div>
+
+        <div style="margin-top: 24.85px;">
+            <img src="../static/img/tracker-warning.png" />
+        </div>
+
+        <div class="flex justify-between" style="margin-top: 54.69px;">
+            <p class="text-base font-semibold" style="color: #2C2B2B; line-height: 19.5px;">Upcoming Workouts</p>
+            <a class="text-xs font-medium" style="color: #7F7F7F; line-height: 14.63px;">See more</a>
+        </div>
+
+        <div class="mt-4">
+            <div class="flex items-center rounded-xl bg-white w-full mb-4"
+                style="height: 75px; box-shadow: -4px 8px 25px -8px #00000026;">
+                <div class="flex justify-between items-center w-full">
+                    <div class="flex items-center mx-4">
+                        <img src="../static/img/tracker-card-img-1.png" />
+                        <div class="ml-2.5">
+                            <p class="text-xs font-medium" style="line-height: 14.63px; color: #2C2B2B;">Full Body
+                                Workout</p>
+                            <p class="font-medium mt-2" style="font-size: 10px; line-height: 12.19px; color: #7F7F7F;">
+                                Today 3pm</p>
+                        </div>
+                    </div>
+
+                    <div class="toggle-switch-container">
+                        <input id="toggle-switch-1" type="checkbox" />
+                        <label for="toggle-switch-1" class="toggle-switch-button"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center rounded-xl bg-white w-full"
+                style="height: 75px; box-shadow: -4px 8px 25px -8px #00000026;">
+                <div class="flex justify-between items-center w-full">
+                    <div class="flex items-center mx-4">
+                        <img src="../static/img/tracker-card-img-2.png" />
+                        <div class="ml-2.5">
+                            <p class="text-xs font-medium" style="line-height: 14.63px; color: #2C2B2B;">Upper Body
+                                Workout</p>
+                            <p class="font-medium mt-2" style="font-size: 10px; line-height: 12.19px; color: #7F7F7F;">4
+                                Feb, 3:30pm</p>
+                        </div>
+                    </div>
+
+                    <div class="toggle-switch-container">
+                        <input id="toggle-switch-2" type="checkbox" />
+                        <label for="toggle-switch-2" class="toggle-switch-button"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <p class="text-base font-semibold" style="color: #2C2B2B; line-height: 19.5px;">What Do You Want to Train
+            </p>
+        </div>
+
+        <div class="mt-4">
+            <div class="flex justify-between items-center rounded-xl w-full"
+                style="background-color: #8CB1FF99; height: 124px;">
+                <div class="mx-4">
+                    <p class="text-xs font-medium" style="margin-bottom: 9px; color: #2C2B2B; line-height: 14.63px;">
+                        Full Body Workout</p>
+                    <p class="font-medium mb-2" style="color: #2C2B2B; font-size: 10px; line-height: 12.19px;">Arms</p>
+                    <p class="font-medium" style="color: #2C2B2B; font-size: 10px; line-height: 12.19px;">Chest</p>
+                </div>
+                <div class="mr-4">
+                    <img src="../static/img/tracker-workout-img.png" />
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center bg-white fixed bottom-0 right-0 left-0 w-full"
+            style="z-index: 10; height: 76px;">
+            <img src="../static/img/nav-buttons.png" class="absolute bottom-7" />
+            <img src="../static/img/search-button.png" class="absolute bottom-7" />
+        </div>
+
+        <!-- Add the javascript script -->
+        <script src="main.js"></script>
+</body>
+
+</html>
